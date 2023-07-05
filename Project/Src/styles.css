@@ -1,0 +1,106 @@
+html {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  min-height: 100%;
+  background-image: url(Media/Rain-with-snow.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+body {
+  background-color: transparent;
+}
+
+h1 {
+  font-weight: 400;
+}
+
+h2 {
+  font-size: 3em;
+}
+
+h6 {
+  font-weight: 600;
+}
+
+a {
+  color: #383838;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+a:hover {
+  color: #161616;
+}
+
+#search-bar {
+  background-color: transparent;
+  border: solid 1px #b9b9b9;
+  margin-right: 5px;
+  color: #b9b9b9;
+}
+
+#search-bar::placeholder {
+  color: #b9b9b9;
+}
+
+#search-bar:focus {
+  outline: none;
+  border-color: rgba(79, 83, 94, 0.233);
+  box-shadow: 0 0 10px rgba(79, 83, 94, 0.233);
+}
+
+#weather-icon-card {
+  font-size: 2em;
+  padding: 0.5rem 0 1rem;
+}
+
+#weather-conditions {
+  text-transform: capitalize;
+}
+
+.btn-group {
+  background-color: rgba(255, 255, 255, 0.397);
+}
+
+.high-temp {
+  color: #383838;
+}
+
+.low-temp {
+  color: #6b6b6b;
+}
+
+.btn-outline-secondary:hover {
+  border-color: rgba(126, 126, 126, 0.603);
+  background-color: rgba(46, 46, 46, 0.603);
+}
+
+.body {
+  max-width: 840px;
+  border-radius: 2em;
+  padding: 2em;
+  background-color: rgba(255, 255, 255, 0.288);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.21);
+}
+
+.main-icon {
+  font-size: 10em;
+}
+
+.card-icon {
+  font-size: 2.5em;
+}
+
+.card {
+  background-color: rgba(255, 255, 255, 0.397);
+  transition: all 200ms ease-in-out;
+}
+
+.card:hover {
+  background-color: rgba(255, 255, 255, 0.747);
+}
