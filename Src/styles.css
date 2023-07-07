@@ -2,7 +2,7 @@ html {
   font-family: "Montserrat", sans-serif;
   font-weight: 300;
   min-height: 100%;
-  background-image: url(Media/Rain-with-snow.jpg);
+  background-image: url(Media/Heavy-rain.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -60,6 +60,10 @@ a:hover {
   text-transform: capitalize;
 }
 
+#signature {
+  font-size: 0.95em;
+  margin-top: 0.5em;
+}
 .btn-group {
   background-color: rgba(255, 255, 255, 0.397);
 }
